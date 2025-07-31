@@ -1,0 +1,61 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full height layout */
+body, html {
+  height: 100%;
+  background: linear-gradient(to right, #667eea, #764ba2); /* Beautiful gradient background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form container */
+div {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input styling */
+input[type="text"] {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #667eea;
+}
+
+/* Button styling */
+button {
+  padding: 0.75rem;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #5a67d8;
+}
